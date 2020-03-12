@@ -1,0 +1,6 @@
+D:\CTS\Batches\Batch01022020\ADO\HandsOnADO\HandsOnADO\bin\Debug\HandsOnADO.exe.config
+D:\CTS\Batches\Batch01022020\ADO\HandsOnADO\HandsOnADO\bin\Debug\HandsOnADO.exe
+D:\CTS\Batches\Batch01022020\ADO\HandsOnADO\HandsOnADO\bin\Debug\HandsOnADO.pdb
+D:\CTS\Batches\Batch01022020\ADO\HandsOnADO\HandsOnADO\obj\Debug\HandsOnADO.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\ADO\HandsOnADO\HandsOnADO\obj\Debug\HandsOnADO.exe
+D:\CTS\Batches\Batch01022020\ADO\HandsOnADO\HandsOnADO\obj\Debug\HandsOnADO.pdb

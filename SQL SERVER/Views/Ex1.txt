@@ -1,0 +1,27 @@
+USE [Northwind]
+GO
+IF OBJECT_ID('[DBO].vw_ViewProducts','V') IS NOT NULL
+BEGIN
+  DROP VIEW [DBO].vw_ViewProducts
+  PRINT '<< [DBO].vw_ViewProducts view dropped.. >>'
+END
+GO
+CREATE VIEW [DBO].vw_ViewProducts
+AS
+ SELECT 
+    ProductID,ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued
+ FROM Products
+GO
+IF OBJECT_ID('[DBO].vw_ViewProducts','V') IS NOT NULL
+BEGIN
+  PRINT '<< [DBO].vw_ViewProducts view created.. >>'
+END
+GO
+--O/P
+SELECT * FROM [DBO].vw_ViewProducts
+--INSERT
+INSERT INTO [DBO].vw_ViewProducts(ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued)
+VALUES('Test View',1,2,'100 per bag',25.45,89,57,15,0)
+--DELETE
+DELETE FROM [DBO].vw_ViewProducts WHERE ProductID = 81
+

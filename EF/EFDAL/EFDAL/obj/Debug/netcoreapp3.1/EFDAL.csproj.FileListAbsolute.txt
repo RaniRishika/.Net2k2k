@@ -1,0 +1,10 @@
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\bin\Debug\netcoreapp3.1\EFDAL.deps.json
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\bin\Debug\netcoreapp3.1\EFDAL.dll
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\obj\Debug\netcoreapp3.1\EFDAL.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\obj\Debug\netcoreapp3.1\EFDAL.AssemblyInfoInputs.cache
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\obj\Debug\netcoreapp3.1\EFDAL.AssemblyInfo.cs
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\bin\Debug\netcoreapp3.1\EFDAL.runtimeconfig.json
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\bin\Debug\netcoreapp3.1\EFDAL.runtimeconfig.dev.json
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\bin\Debug\netcoreapp3.1\EFDAL.pdb
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\obj\Debug\netcoreapp3.1\EFDAL.dll
+D:\CTS\Batches\Batch01022020\EF\EFDAL\EFDAL\obj\Debug\netcoreapp3.1\EFDAL.pdb

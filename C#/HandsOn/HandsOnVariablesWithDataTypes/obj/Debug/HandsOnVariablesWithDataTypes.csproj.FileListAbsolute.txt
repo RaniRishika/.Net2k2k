@@ -1,0 +1,6 @@
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnVariablesWithDataTypes\obj\Debug\HandsOnVariablesWithDataTypes.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnVariablesWithDataTypes\bin\Debug\HandsOnVariablesWithDataTypes.exe.config
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnVariablesWithDataTypes\bin\Debug\HandsOnVariablesWithDataTypes.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnVariablesWithDataTypes\bin\Debug\HandsOnVariablesWithDataTypes.pdb
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnVariablesWithDataTypes\obj\Debug\HandsOnVariablesWithDataTypes.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnVariablesWithDataTypes\obj\Debug\HandsOnVariablesWithDataTypes.pdb

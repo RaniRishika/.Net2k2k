@@ -1,0 +1,5 @@
+declare @name varchar(30)
+
+
+ exec get_empname 'e0001',@name output
+select @name

@@ -1,0 +1,6 @@
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnArrays\bin\Debug\HandsOnArrays.exe.config
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnArrays\bin\Debug\HandsOnArrays.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnArrays\bin\Debug\HandsOnArrays.pdb
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnArrays\obj\Debug\HandsOnArrays.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnArrays\obj\Debug\HandsOnArrays.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnArrays\obj\Debug\HandsOnArrays.pdb

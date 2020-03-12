@@ -1,0 +1,49 @@
+namespace Win_Disconnected
+{
+    public partial class Form1 : Form
+    {
+        DataSet ds = null;
+        SqlDataAdapter sda = null;  
+        public void MainForm()
+        {
+            InitializeComponent();
+        }
+        private void btngetdata_Click(object sender, EventArgs e)      
+          
+        {
+           
+            //locL CONTAINER TO STORE TABLE
+
+             ds = new DataSet();
+             sda = new SqlDataAdapter
+                 ("proc_GetCategories", "Data Source=D-5398;Initial Catalog = MyDb;Integrated Security = SSPI");
+
+             sda.SelectCommand.CommandType = CommandType.StoredProcedure;
+           
+
+            //INSTANTIATE DATA ADAPTER CLASS
+            //up passing the select statement and  cionnection  string
+
+          
+            try
+           
+            {
+                sda.Fill(ds, "tb_category");
+                DGV.DataSource = ds;
+                DGV.DataMember= "tb_category";
+            }
+            catch (SqlException ex)
+           
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private void btnsavedata_Click(object sender, EventArgs e)
+        {
+           
+            sda.Update(ds, "tb_category");
+        }
+              
+        }
+    }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnOperators", "HandsOnOperators.csproj", "{DBDD27A0-8489-4F23-8D7A-F3DC5C3C4130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBDD27A0-8489-4F23-8D7A-F3DC5C3C4130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDD27A0-8489-4F23-8D7A-F3DC5C3C4130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDD27A0-8489-4F23-8D7A-F3DC5C3C4130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDD27A0-8489-4F23-8D7A-F3DC5C3C4130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {406F177B-E016-4297-9994-21CC4669DB28}
+	EndGlobalSection
+EndGlobal

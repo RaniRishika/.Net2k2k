@@ -1,0 +1,48 @@
+CREATE FUNCTION dbo.customersbycountry ( @Country varchar(15) )
+RETURNS 
+	@CustomersbyCountryTab table (
+		[CustomerID] [nchar] (5), [CompanyName] [nvarchar] (40), 
+		[ContactName] [nvarchar] (30), [ContactTitle] [nvarchar] (30), 
+		[Address] [nvarchar] (60), [City] [nvarchar] (15),
+		[PostalCode] [nvarchar] (10), [Country] [nvarchar] (15), 
+		[Phone] [nvarchar] (24), [Fax] [nvarchar] (24)
+	)
+AS
+BEGIN
+	INSERT INTO @CustomersByCountryTab 
+	SELECT 	[CustomerID], 
+			[CompanyName], 
+			[ContactName], 
+			[ContactTitle], 
+			[Address], 
+			[City], 
+			[PostalCode], 
+			[Country], 
+			[Phone], 
+			[Fax] 
+	FROM [Northwind].[dbo].[Customers]
+	WHERE country = @Country
+	
+	DECLARE @cnt INT
+	SELECT @cnt = COUNT(*) FROM @customersbyCountryTab
+	
+	IF @cnt = 0
+		INSERT INTO @CustomersByCountryTab (
+			[CustomerID],
+			[CompanyName],
+			[ContactName],
+			[ContactTitle],
+			[Address],
+			[City],
+			[PostalCode],
+			[Country], 
+			[Phone],
+			[Fax]  )
+		VALUES ('','No Companies Found','','','','','','','','')
+	
+	RETURN
+END
+GO
+SELECT * FROM dbo.customersbycountry('USA')
+SELECT * FROM dbo.customersbycountry('CANADA')
+SELECT * FROM dbo.customersbycountry('ADF')

@@ -1,0 +1,6 @@
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConditionalStatments\bin\Debug\HandsOnConditionalStatments.exe.config
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConditionalStatments\bin\Debug\HandsOnConditionalStatments.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConditionalStatments\bin\Debug\HandsOnConditionalStatments.pdb
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConditionalStatments\obj\Debug\HandsOnConditionalStatments.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConditionalStatments\obj\Debug\HandsOnConditionalStatments.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConditionalStatments\obj\Debug\HandsOnConditionalStatments.pdb

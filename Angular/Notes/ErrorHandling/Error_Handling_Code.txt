@@ -1,0 +1,36 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable,throwError } from 'rxjs';
+import {catchError} from 'rxjs/operators'
+import { Product } from '../Models/product';
+import { environment } from 'src/environments/environment';
+@Injectable({
+  providedIn: 'root'
+})
+export class ProductService {
+
+  constructor(private http:HttpClient) { }
+  public GetAll():Observable<Product[]>
+  {
+return this.http.get<Product[]>(environment.url)
+.pipe(catchError(this.handleError))
+  }
+  handleError(error) {
+return throwError(error)
+}
+}
+
+Component.cs
+-------------
+
+  ngOnInit() {
+    this.service.GetAll().subscribe(
+      response=>{
+      this.list=response;
+      console.log(this.list)
+    },
+    err=>{
+      console.log(err)
+    }
+    );
+  }

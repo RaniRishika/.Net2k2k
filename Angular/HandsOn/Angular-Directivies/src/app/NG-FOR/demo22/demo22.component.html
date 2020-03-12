@@ -1,0 +1,50 @@
+<h1>Studnet List</h1>
+<div class="container">
+    <div class="container">
+        <div id="student">
+            <table border="1">
+                <tr>
+                    <td>ID</td>
+                    <td><input type="text" [(ngModel)]="sid"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" [(ngModel)]="sname"></td>
+                </tr>
+                <tr>
+                    <td>Std</td>
+                    <td><select [(ngModel)]="std">
+                        <option *ngFor="let item of stds">{{item}}</option>
+                        <!-- <option>II</option>
+                        <option>III</option> -->
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>age</td>
+                    <td><input type="number" [(ngModel)]="age"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button (click)='Add()' class="btn btn-primary">Add</button>
+                        <button (click)='SetVal()' class="btn btn-info">{{val?'Show':'Hide'}}</button>
+                    </td>
+                </tr>
+            </table>
+            </div>
+            <table class="table table-responsive">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th *ngIf="val">Class</th>
+                    <th *ngIf="val">Age</th>
+                </tr>
+                <tr *ngFor="let item of list">
+                    <td>{{item.sid}}</td>
+                    <td>{{item.sname}}</td>
+                    <td *ngIf="val">{{item.std}}</td>
+                    <td *ngIf="val">{{item.age}}</td>
+                  
+                </tr>
+            </table>
+    </div>
+</div>

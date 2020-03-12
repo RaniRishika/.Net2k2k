@@ -1,0 +1,26 @@
+<div class="container">
+  <table>
+    <tr>
+      <td>Name</td>
+      <td><input type="text" [(ngModel)]="name"></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" (change)="fileEvent($event)"></td>
+    </tr>
+    <tr>
+      <td><button (click)="Upload()">Upload</button></td>
+    </tr>
+    <tr>
+      <td>
+        <div *ngFor="let item of items">
+          <div>
+            <img src='assets/images/{{item.img}}' style="height:150px; width:150px;"><br>
+            Name:{{item.name}}
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+

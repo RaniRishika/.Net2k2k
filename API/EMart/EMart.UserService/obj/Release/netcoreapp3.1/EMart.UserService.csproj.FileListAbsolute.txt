@@ -1,0 +1,17 @@
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\appsettings.json
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\EMart.UserService.exe
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\EMart.UserService.deps.json
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\EMart.UserService.runtimeconfig.json
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\EMart.UserService.runtimeconfig.dev.json
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\EMart.UserService.dll
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\bin\Release\netcoreapp3.1\EMart.UserService.pdb
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\staticwebassets\EMart.UserService.StaticWebAssets.Manifest.cache
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\staticwebassets\EMart.UserService.StaticWebAssets.xml
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\EMart.UserService.MvcApplicationPartsAssemblyInfo.cache
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\EMart.UserService.AssemblyInfoInputs.cache
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\EMart.UserService.AssemblyInfo.cs
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\EMart.UserService.RazorTargetAssemblyInfo.cache
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\EMart.UserService.dll
+D:\CTS\Batches\Batch01022020\API\EMart\EMart.UserService\obj\Release\netcoreapp3.1\EMart.UserService.pdb

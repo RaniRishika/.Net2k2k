@@ -1,0 +1,26 @@
+Step1: Create a folder C:\website1
+
+Step2: Create a index.htm in that folder
+
+Step3: Open command prompt and execute the below :
+
+                npm install –g light-server
+
+                light-server –s c:\website1 –p 4545
+
+
+                now http://localhost:4545 shall serve your website1
+
+ 
+
+Step4: download ngrok from https://ngrok.com/download
+
+Step5: extract the zip and set path to ngrok.exe
+
+Step6: run the below command ona new command prompt:
+
+                ngrok http 4545
+
+ 
+
+                this will result in a new URL with a random domain and you can use that url to access your site from anywhere

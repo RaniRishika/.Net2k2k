@@ -1,0 +1,18 @@
+CREATE PROCEDURE ps_Orders_INSERT
+@Ord_Priority varchar(10)
+AS
+BEGIN TRANSACTION
+ INSERT Orders (Ord_Priority) VALUES (@Ord_Priority)
+
+ IF @@ERROR <> 0
+  GOTO ErrorCode
+
+ IF @Ord_Priority = 'High'
+  PRINT 'Email Code Goes Here'
+
+COMMIT TRANSACTION
+
+ErrorCode:
+ IF @@TRANCOUNT <> 0
+  PRINT 'Error Code'
+go

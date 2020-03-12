@@ -1,0 +1,16 @@
+sp_helpconstraint:Returns a list of all constraint types
+
+sp_helpdb:Returns all databases.
+
+sp_helpindex:Reports information about the indexes on a table or view.
+
+sp_helptext:Displays the definition of a user-defined rule, default, unencrypted Transact-SQL stored procedure, user-defined Transact-SQL function, trigger, computed column, CHECK constraint, view, or system object such as a system stored procedure.
+
+sp_helptrigger:Returns the type or types of DML triggers defined on the specified table for the current database. 
+
+sp_renamedb:Changes the name of a database.
+
+sp_depends:Displays information about database object dependencies, such as the views and procedures that depend on a table or view, and the tables and views that are depended on by the view or procedure. References to objects outside the current database are not reported.
+
+sp_databases: to get all the databases.
+sp_helpdb: get all db info.

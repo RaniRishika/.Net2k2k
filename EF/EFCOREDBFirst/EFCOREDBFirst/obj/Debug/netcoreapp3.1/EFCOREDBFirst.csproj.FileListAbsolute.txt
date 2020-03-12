@@ -1,0 +1,10 @@
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.deps.json
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.dll
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.AssemblyInfoInputs.cache
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.AssemblyInfo.cs
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.runtimeconfig.json
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.runtimeconfig.dev.json
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.pdb
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.dll
+D:\CTS\Batches\Batch01022020\EF\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.pdb

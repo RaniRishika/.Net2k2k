@@ -1,0 +1,6 @@
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnIterativeStatements\bin\Debug\HandsOnIterativeStatements.exe.config
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnIterativeStatements\bin\Debug\HandsOnIterativeStatements.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnIterativeStatements\bin\Debug\HandsOnIterativeStatements.pdb
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnIterativeStatements\obj\Debug\HandsOnIterativeStatements.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnIterativeStatements\obj\Debug\HandsOnIterativeStatements.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnIterativeStatements\obj\Debug\HandsOnIterativeStatements.pdb

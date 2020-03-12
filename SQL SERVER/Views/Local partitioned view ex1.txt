@@ -1,0 +1,41 @@
+USE [Northwind]
+GO
+CREATE TABLE EmployeeList
+(
+  iEmployeeID INT IDENTITY(1,1),
+  vFirstName VARCHAR(25) NOT NULL,
+  vLastName VARCHAR(25) NOT NULL,
+  iDeptID INT,
+  vAddress VARCHAR(25) NOT NULL,
+  vCity VARCHAR(25) NOT NULL,
+  vState VARCHAR(25) NOT NULL,
+  vCountry VARCHAR(25) NOT NULL,
+)
+GO
+USE [Master]
+GO
+CREATE TABLE Department
+(
+  iDeptID INT IDENTITY(1,1) PRIMARY KEY,
+  vDeptName VARCHAR(50),
+  vDeptDesc VARCHAR(25),
+  vDeptAddedBy VARCHAR(50),
+  vPostedDate DATETIME DEFAULT GETDATE()
+)
+GO
+--SELECT * FROM Department
+USE [Northwind]
+GO
+IF OBJECT_ID('[DBO].vw_LocalPartion_View','V') IS NOT NULL
+BEGIN
+  DROP VIEW [DBO].vw_LocalPartion_View
+  PRINT '[DBO].vw_LocalPartion_View view dropped...'
+END
+GO
+CREATE VIEW [DBO].vw_LocalPartion_View
+AS
+SELECT E.iEmployeeID,E.vFirstName+SPACE(1)+E.vLastName AS [Name],
+       D.vDeptName,E.vAddress,E.vCity,E.vState
+FROM EmployeeList E
+--INNER JOIN Master..Department D ON D.iDeptID = E.iDeptID --Either one of the way will be used.
+INNER JOIN Master.dbo.Department D ON D.iDeptID = E.iDeptID

@@ -1,0 +1,6 @@
+D:\CTS\Batches\Batch010220\C#\HandsOn\MyFirstApp\bin\Debug\MyFirstApp.exe.config
+D:\CTS\Batches\Batch010220\C#\HandsOn\MyFirstApp\bin\Debug\MyFirstApp.exe
+D:\CTS\Batches\Batch010220\C#\HandsOn\MyFirstApp\bin\Debug\MyFirstApp.pdb
+D:\CTS\Batches\Batch010220\C#\HandsOn\MyFirstApp\obj\Debug\MyFirstApp.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch010220\C#\HandsOn\MyFirstApp\obj\Debug\MyFirstApp.exe
+D:\CTS\Batches\Batch010220\C#\HandsOn\MyFirstApp\obj\Debug\MyFirstApp.pdb

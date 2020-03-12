@@ -1,0 +1,6 @@
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConversions\obj\Debug\HandsOnConversions.csprojAssemblyReference.cache
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConversions\bin\Debug\HandsOnConversions.exe.config
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConversions\bin\Debug\HandsOnConversions.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConversions\bin\Debug\HandsOnConversions.pdb
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConversions\obj\Debug\HandsOnConversions.exe
+D:\CTS\Batches\Batch01022020\C#\HandsOn\HandsOnConversions\obj\Debug\HandsOnConversions.pdb

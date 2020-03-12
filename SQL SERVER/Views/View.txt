@@ -1,0 +1,46 @@
+View:
+------
+-The view is a virtual table, which can have the multiple columns from the one or more table. 
+When we create the view it stores the view definition schema as object under the concern database.
+
+When to use VIEW?
+-----------------
+
+-When you have complex queries, that use many places in the stored procedures or functions, etc..,
+
+-It will be used as security mechanism in the web applications. When we use the original table in the web applications the hackers may drop the table. That time the original data will be persist in the table.
+
+-When you want to hide the particular columns to the specific people then we can create the specialized view.
+-sp_helptext Vw_SqlObjects_Encrypted-display about view
+-There are three types of views in the sql server 2005.
+
+They are  
+
+Normal or Standard view 
+Indexed or permanent view 
+Partitioned view
+
+Normal or Standard view:
+-----------------------
+
+This view is most frequently used by the developers. When create the view the schema will be stored an object in the database. When we retrieve the content from this virtual table, it will be executed the schema and stored the data from the parent table.
+
+Here if you have the result from the same table then it can be updated and inserted. The deleted row will be reflected in the original table.
+
+
+Here you can do the DML operations in the view when you have only one table.
+
+Display Views
+-------------
+sp_helptext vw_ViewProducts
+
+Drop views
+-----------
+DROP VIEW VIEW_NAME
+
+rename views:
+------------
+sp_rename old_viewname,new_viewname
+
+
+

@@ -1,0 +1,51 @@
+<!-- main app container -->
+<div class="card m-1" style="width:500px;align-items: center;">
+  <div class="card-body">
+      <form [formGroup]="itemForm" (ngSubmit)="onSubmit()">
+
+              <div class="form-group">
+                  <label>ID</label>
+                  <input type="text" formControlName="id" class="form-control" />
+                </div>
+              <div class="form-group">
+                  <label>Name</label>
+                  <input type="text" formControlName="name" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Price</label>
+                <input type="text" formControlName="price" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label>Stock</label>
+              <input type="text" formControlName="stock" class="form-control" />
+          </div>
+          <div class="text-center form-group">
+              <button class="btn btn-primary mr-1">ADD</button>
+              <button class="btn btn-primary mr-1" (click)="Search()" type="button">Search</button>
+              <button class="btn btn-primary mr-1" (click)="Update()" type="button">Update</button>
+              <button class="btn btn-primary mr-1" (click)="Delete()" type="button">Delete</button>
+          </div>
+          <div class="text-center form-group">
+            <button class="btn btn-secondary" type="reset" (click)="onReset()">Cancel</button>
+        </div>
+      </form>
+  </div>
+</div>
+<div class="container">
+  <table class="table table-bordered">
+<tr>
+  <th>ID</th>
+  <th>Name</th>
+  <th>Price</th>
+  <th>Stock</th>
+</tr>
+<tr *ngFor="let item of list">
+  <td>{{item.itemid}}</td>
+  <td>{{item.name}}</td>
+  <td>{{item.price}}</td>
+  <td>{{item.stock}}</td>
+</tr>
+  </table>
+</div>
+
+
